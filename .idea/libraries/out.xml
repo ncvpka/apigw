@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="out">
+    <CLASSES>
+      <root url="jar://E:/sOURCE/supper-app-api/supper-app-apigateway/out/supper-app-apigateway-utils.jar!/" />
+      <root url="jar://E:/sOURCE/supper-app-api/supper-app-apigateway/out/supper-app-apigateway.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,73 @@
+appName: "Natcash ApiGateway End-User"
+controllerPackages: ["vn.supperapp.apigw.restful.controllers"]
+
+server:
+  registerDefaultExceptionMappers: false
+  applicationConnectors:
+    - type: http
+      port: 8686
+#    - type: https
+#      port: 8585
+#      keyStorePath: ../ssl/emoney_ks.jks
+#      keyStorePassword: eMoneyKh!#13
+#      keyStoreType: JKS
+#      keyStoreProvider:
+
+#      trustStorePath: ../ssl/truststore_server
+#      trustStorePassword: Abc@123
+#      trustStoreType: JKS
+#      trustStoreProvider:
+  adminConnectors: []
+#    - type: http
+#      port: 8081
+
+assets:
+  mappings:
+    /assets: /assets
+  overrides:
+    # Override requests to /dashboard/${1} to instead look in
+    # ${working directory}/src/main/resources/assets/${1}
+    /assets: D:\sources\microtec-apigateway\assets
+
+dbAppEncrypted: false
+dbApp:
+  driverClass: oracle.jdbc.OracleDriver
+  #  user: "natcash_app"
+  #  password: "NatCa$h22#"
+  #  url: "jdbc:oracle:thin:@(DESCRIPTION = (LOAD_BALANCE=ON ) (ADDRESS = (PROTOCOL = TCP)(HOST = 103.27.237.84)(PORT = 1521)) (ADDRESS = (PROTOCOL = TCP)(HOST = 103.27.237.84)(PORT = 1521))  (CONNECT_DATA =  (SID = altekos)))"
+  user: "supperapp"
+  password: "supperappnew"
+  url: "jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 210.245.52.107)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))(LOAD_BALANCE = yes)(CONNECT_DATA = (SID = orcl)))"
+  validationQuery: select 1 from dual
+  checkConnectionWhileIdle: true
+  removeAbandoned: true
+  removeAbandonedTimeout: 60s
+  evictionInterval: 10s
+  minIdleTime: 30s
+  # the maximum amount of time to wait on an empty pool before throwing an exception
+  maxWaitForConnection: 2s
+  # the minimum number of connections to keep open
+  minSize: 8
+  # the maximum number of connections to keep open
+  maxSize: 512
+  properties:
+    charSet: UTF-8
+    hibernate.dialect: org.hibernate.dialect.OracleDialect
+    hibernate.show_sql: true
+    hibernate.format_sql: true
+    hibernate.hbm2ddl.auto: none
+    org.hibernate.flushMode: MANUAL
+
+# Logging settings.
+logging:
+  level: INFO
+  appenders:
+    - type: console
+      timeZone: system
+    - type: file
+      timeZone: system
+      currentLogFilename: '../logs/full.log'
+      archivedLogFilenamePattern: '../logs/full.log.%d-%i.zip'
+      archive: true
+      archivedFileCount: 30
+      maxFileSize: '500mb'

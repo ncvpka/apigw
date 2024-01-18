@@ -1,0 +1,10 @@
+maxTotal: 500
+maxConnectionPerHost: 500
+connectionTimeout: 60000
+readTimeout: 60000
+writeTimeout: 60000
+
+url: "http://localhost:9079/"
+wsUser: "4cc78bec2bc4dc0464592aeba7cdf483bc36a83b"
+wsPass: "1bbKaI5nT+Yfv78cLP+OKL2l8ZTG54eNqqBRDXIdzLM="
+

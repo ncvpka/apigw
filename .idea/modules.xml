@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/supper-app-apigateway/supper-app-apigateway.iml" filepath="$PROJECT_DIR$/supper-app-apigateway/supper-app-apigateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supper-app-apigateway-utils/supper-app-apigateway-utils.iml" filepath="$PROJECT_DIR$/supper-app-apigateway-utils/supper-app-apigateway-utils.iml" />
+    </modules>
+  </component>
+</project>

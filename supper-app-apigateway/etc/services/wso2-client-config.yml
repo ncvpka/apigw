@@ -1,0 +1,8 @@
+maxTotal: 500
+maxConnectionPerHost: 500
+connectionTimeout: 60000
+readTimeout: 60000
+writeTimeout: 60000
+
+url: "http://45.119.85.112:8283"
+

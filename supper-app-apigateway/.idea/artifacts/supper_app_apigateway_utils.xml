@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="supper-app-apigateway-utils">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="archive" name="supper-app-apigateway-utils.jar">
+      <element id="module-output" name="supper-app-apigateway-utils" />
+    </root>
+  </artifact>
+</component>

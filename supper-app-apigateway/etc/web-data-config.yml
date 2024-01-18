@@ -1,0 +1,75 @@
+#Common undefined configurations
+configurations:
+  test1: test1
+  test2: test2
+
+feeMaintenanceConfigs:
+  senderWallet: "855888288688"
+  receiverWallet: "855883970777"
+
+transHisProcessCodeConfigs:
+    offset: 1
+    limit: 10
+
+fee:
+  - groupId: 0
+    groupCode: TRANSFER
+    groupName:
+      en: "Transfer to wallet"
+      fr: "Transfert vers portefeuille"
+      ht: "Transfere nan bous"
+    service: 1
+    transactionCode: "021000"
+  - groupId: 1
+    groupCode: CASHOUT
+    groupName:
+      en: "Withdrawal"
+      fr: "Retrait"
+      ht: "Retre"
+    service: 2
+    transactionCode: "010001"
+
+cashIn:
+    distance: 600
+
+
+topUp:
+  - groupId: 0
+    name: "25"
+    amount: 25
+  - groupId: 1
+    name: "50"
+    amount: 50
+  - groupId: 2
+    name: "100"
+    amount: 100
+  - groupId: 3
+    name: "250"
+    amount: 250
+  - groupId: 4
+    name: "500"
+    amount: 500
+  - groupId: 5
+    name: "1,000"
+    amount: 1000
+
+urlLoginConfig:
+  - groupId: 0
+    configKey: "login.shortcontent.1"
+    language: "en"
+    objectType: "LOGIN"
+    objectValue: "SHORT_CONTENT"
+  - groupId: 1
+    configKey: "login.shortcontent.2"
+    language: "fr"
+    objectType: "LOGIN"
+    objectValue: "SHORT_CONTENT"
+  - groupId: 2
+    configKey: "login.shortcontent.3"
+    language: "ht"
+    objectType: "LOGIN"
+    objectValue: "SHORT_CONTENT"
+
+
+
+

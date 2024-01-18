@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="logs">
+    <CLASSES>
+      <root url="jar://E:/sOURCE/supper-app-api/supper-app-apigateway/logs/full.log.2023-03-17-0.zip!/" />
+      <root url="jar://E:/sOURCE/supper-app-api/supper-app-apigateway/logs/full.log.2023-03-14-0.zip!/" />
+      <root url="jar://E:/sOURCE/supper-app-api/supper-app-apigateway/logs/full.log.2023-03-20-0.zip!/" />
+      <root url="jar://E:/sOURCE/supper-app-api/supper-app-apigateway/logs/full.log.2022-12-07-0.zip!/" />
+      <root url="jar://E:/sOURCE/supper-app-api/supper-app-apigateway/logs/full.log.2023-03-16-0.zip!/" />
+      <root url="jar://E:/sOURCE/supper-app-api/supper-app-apigateway/logs/full.log.2022-12-08-0.zip!/" />
+      <root url="jar://E:/sOURCE/supper-app-api/supper-app-apigateway/logs/full.log.2023-03-03-0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

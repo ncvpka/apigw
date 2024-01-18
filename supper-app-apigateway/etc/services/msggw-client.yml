@@ -1,0 +1,64 @@
+
+#url: http://127.0.0.1:8288/message/send
+url: "http://127.0.0.1:8688/message/send"
+alias: "202"
+clientName: "tigerateAPI"
+clientKey: "f95cfdb619af1bb5630cbf95f7e20b2e21af389fc8459f07e07507c5768f2b9b"
+connectionTimeout: 60 #in seconds
+soTimeout: 60 #in seconds
+maxHostConnection: 500
+releaseMode: "development"
+
+#Danh sách header cần hiển thị khi push notification
+apsMessagingTitle:
+  personalSchedule:
+    en: "Personal Schedule"
+    vi: "Lịch cá nhân"
+  receivedNatcash:
+    en: "Received Natcash"
+    fr: "Monnaie electronique reCue"
+    ht: "Te resevwa lajan elektwonik"
+  cashOut:
+    en: "CashOut"
+    fr: "Encaissement"
+    ht: "CashOut"
+  registerAccount:
+    en: "Register account"
+    fr: "Creer un compte"
+    ht: "Anrejistre kont"
+  upgradeAccount:
+    en: "Upgrade account"
+    fr: "Ameliorer le compte"
+    ht: "Upgrade kont"
+  login:
+    en: "Login"
+    fr: "Connexion"
+    ht: "Ouvri sesyon an"
+  topUpMoney:
+    en: "Recharge Natcash"
+    fr: "Recharger de l argent electronique"
+    ht: "Recharge Natcash"
+  changePin:
+    en: "Change pin"
+    fr: "Changer d'epingle"
+    ht: "Chanje PIN"
+  resendOtp:
+    en: "Resend Otp"
+    fr: "Renvoyer OTP"
+    ht: "Revoye Otp"
+  billPostpaid:
+    en: "Natcom Postpaid"
+    fr: "Natcom Postpaye"
+    ht: "Natcom Postpaid"
+  billInternet:
+    en: "Natcom Internet"
+    fr: "Natcom L'Internet"
+    ht: "Natcom Entenet"
+  buyData:
+    en: "Natcom plans"
+    fr: "Acheter des donnees"
+    ht: "Achte Done"
+  lotto:
+    en: "Lotto"
+    fr: "Loto"
+    ht: "Loto"

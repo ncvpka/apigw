@@ -1,0 +1,9 @@
+#included the API KEY
+url: "https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=AIzaSyCKcz2LTInHucreZTE_m9Bo8lgVV4CFSuw"
+domainUriPrefix: "https://natcash.page.link"
+link: "http://onelink.to/ag43zg"
+androidPackageName: "com.natcash"
+iosBundleId: "ht.com.natcash.eu"
+defaultReferralLink: "http://onelink.to/ag43zg"
+configurations:
+  test: ""

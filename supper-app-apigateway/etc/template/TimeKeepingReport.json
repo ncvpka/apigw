@@ -1,0 +1,75 @@
+{
+  "time": "Tháng 2 - 2020",
+  "lateEarlyDays": 6,
+  "totalWorkingDays": 15.2,
+  "remainingLeaveDays": 10,
+  "salary": "60,000,000 đ",
+  "bonus": "40,000,000 đ",
+  "details": [
+    {
+      "dateWork": "14/02/2020",
+      "timeStart": "08:04",
+      "timeEnd": "18:04",
+      "workDay": 0.5
+    },
+    {
+      "dateWork": "13/02/2020",
+      "timeStart": "08:06",
+      "timeEnd": "20:21",
+      "workDay": 1.0
+    },
+    {
+      "dateWork": "12/02/2020",
+      "timeStart": "08:04",
+      "timeEnd": "18:04",
+      "workDay": 1.0
+    },
+    {
+      "dateWork": "11/02/2020",
+      "timeStart": "08:04",
+      "timeEnd": "18:04",
+      "workDay": 0.5
+    },
+    {
+      "dateWork": "10/02/2020",
+      "timeStart": "08:04",
+      "timeEnd": "18:04",
+      "workDay": 0.5
+    },{
+      "dateWork": "09/02/2020",
+      "timeStart": "Nghỉ Phép",
+      "timeEnd": "",
+      "workDay": 0
+    },
+    {
+      "dateWork": "08/02/2020",
+      "timeStart": "08:04",
+      "timeEnd": "18:04",
+      "workDay": 0.5
+    },
+    {
+      "dateWork": "07/02/2020",
+      "timeStart": "08:04",
+      "timeEnd": "18:04",
+      "workDay": 1.0
+    },
+    {
+      "dateWork": "06/02/2020",
+      "timeStart": "08:04",
+      "timeEnd": "11:02",
+      "workDay": 0.3
+    },
+    {
+      "dateWork": "05/02/2020",
+      "timeStart": "08:04",
+      "timeEnd": "18:04",
+      "workDay": 0.7
+    },
+    {
+      "dateWork": "04/02/2020",
+      "timeStart": "08:04",
+      "timeEnd": "18:04",
+      "workDay": 1.0
+    }
+  ]
+}

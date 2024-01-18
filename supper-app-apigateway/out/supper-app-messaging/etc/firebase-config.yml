@@ -1,0 +1,8 @@
+credentialFile: "../etc/tigerate-837bb-firebase-adminsdk-fjcd7-759df5f927.json"
+databaseUrl: "https://tigerate-837bb-default-rtdb.firebaseio.com"
+credentialFileAgent: "../etc/natcash-agent-firebase-adminsdk-y4zin-abbd897a88.json"
+databaseUrlAgent: "https://natcash-agent-default-rtdb.firebaseio.com"
+icon: ""
+sound: "default"
+ttl: 3600000
+color: "#f45342"
